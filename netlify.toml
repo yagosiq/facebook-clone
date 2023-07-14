@@ -1,0 +1,9 @@
+[[redirects]]
+from = "/*"
+to = "/src/index.html"
+status = 200
+
+[[redirects]]
+from = "/img/*"
+to = "src/img/:splat"
+status = 200
